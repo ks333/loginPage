@@ -1,2 +1,0 @@
-# sample
-this is test
