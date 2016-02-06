@@ -1,0 +1,17 @@
+td.label{
+  background-color :#ffa500;
+}
+
+td.messageSpace{
+  height:50px;
+  text-align:center;
+
+}
+
+input.input{
+  width:100%;
+}
+
+input.submitBtn{
+  width: 100px;
+}
