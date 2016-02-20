@@ -67,7 +67,6 @@
       $errorPage=new loginError();//オブジェクト化
       $errorPage->getloginErrorPages("IDまたはPasswordが違います");//登録エラーページの表示
     }
-  
     $dbh=null;//DBから切断
   ?>
   </body>

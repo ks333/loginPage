@@ -7,7 +7,6 @@
   </head>
   <body>
   <?php
-$ame=null;
     $name=$_POST["name"];
     $id=$_POST["id"];
     $password=$_POST["password"];
@@ -43,7 +42,6 @@ $ame=null;
          }
          if($id==$rec['id']||$password==$rec['password']){
              $registered=1;//登録判定の変数を1にセット
-             $name=$rec['name'];
              break;
          }
       }
@@ -59,11 +57,7 @@ $ame=null;
       $stmt=$dbh->prepare($sql);//指令を出す準備
       $stmt->execute();//指令を出す
       $completePage->getRegistrationCompletePages("登録完了しました");//登録完了ページの表示
-
-
       }
-
-
     }
 
 

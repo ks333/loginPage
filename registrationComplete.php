@@ -2,7 +2,6 @@
     class registrationComplete{
       
       public function getRegistrationCompletePages($message){
-
         print '<table width="600" border="0" align="center">';
         print '  <tr>';
         print '    <td>';
@@ -23,7 +22,6 @@
         print '    </td>';
         print '  </tr>';
         print '    </table>';
-
       }
 
     }
